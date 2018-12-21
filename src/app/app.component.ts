@@ -19,6 +19,21 @@ export class AppComponent {
       title: 'List',
       url: '/list',
       icon: 'list'
+    },
+    {
+      title: 'Categoria 1',
+      url: '/categoria/1',
+      icon: 'list'
+    },
+    {
+      title: 'Categoria 2',
+      url: '/categoria/2',
+      icon: 'list'
+    },
+    {
+      title: 'Categoria 3',
+      url: '/categoria/3',
+      icon: 'list'
     }
   ];
 
