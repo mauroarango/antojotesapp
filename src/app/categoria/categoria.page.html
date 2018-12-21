@@ -1,9 +1,57 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="danger">
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
     <ion-title>Categoria {{idPage}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
+
+  <ion-card>
+      <ion-card-content>
+          <ion-slides style="height: 300px; width: 300px;" pager="true">
+ 
+              <ion-slide>
+                <img src="assets/imagestest/slides1.png" />
+              </ion-slide>
+             
+              <ion-slide>
+                <img src="assets/imagestest/slides2.png" />
+              </ion-slide>
+             
+              <ion-slide>
+                <img src="assets/imagestest/slides3.png" />
+              </ion-slide>
+             
+              <ion-slide>
+                <img src="assets/imagestest/slides4.png" />
+              </ion-slide>
+              
+            </ion-slides>
+           
+          <ion-row no-padding>
+  
+            <ion-col col-3 text-center>
+              <p>Texto1</p>
+              <p>Texto2</p>
+            </ion-col>
+            <ion-col>
+              <p>Texto 3</p>
+            </ion-col>
+  
+          </ion-row>
+        </ion-card-content>
+  
+      </ion-card>
+
+
+      <!--<ion-row>
+          <ion-col>
+            <button ion-button color="primary" (click)="goToCall()">Llamar</button>
+            <button ion-button color="success" (click)="goToWhat()">Whatsapp</button>
+          </ion-col>
+      </ion-row>-->
 
 </ion-content>
